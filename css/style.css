@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: #D6EAF8;
+}
+
+header {
+  height: 10%;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 45px;
+  background: url(http://drakeinthemorning.com/wp-content/uploads/2017/07/best-ice-cream-flavors-ft-blog0717.jpg);
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
+  color: #0000ff;
+}
+
+nav ul {
+  padding-top: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding: 20px 100px;
+  font-size: 1.5em;
+}
+
+nav li:hover {
+  background-color: #ffffff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  color: #2980B9;
+}
+
+main p {
+  margin: 20px 15% 20px; 15%;
+  color: #0000ff;
+  font-size: 1em;
+}
+
+main img {
+  display: block;
+  margin: auto;
+}
+
+main section {
+  width: 30%;
+  float: left;
+  margin: 3% 9%;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: lightblue;
+  padding-bottom: 60px;
+}
+
+footer {
+  clear: both;
+  background-color: #00bbff;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+}
